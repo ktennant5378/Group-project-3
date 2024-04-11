@@ -1,0 +1,2 @@
+LA_Crime_Data.csv filter=lfs diff=lfs merge=lfs -text
+Data/LA_Crime_Data.csv filter=lfs diff=lfs merge=lfs -text
