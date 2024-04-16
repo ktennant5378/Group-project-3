@@ -17,8 +17,7 @@ I also worked with the Date Columns (total 28 columns) table.
 Then, I converted the Date OCC to datetime. 
 
 
-![image](https://github.com/ktennant5378/Group-project-3/assets/153492014/a94964ef-1f34-403a-aa69-5a9efc792358)
-
+![image](https://github.com/ktennant5378/Group-project-3/assets/153492014/6276ebcb-52a3-4eb7-b662-609ecf4a3850)
 
 
 
