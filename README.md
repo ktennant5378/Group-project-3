@@ -15,6 +15,8 @@ Then I did some cleaning of the data, got ride of the Nan values, dropped the du
 I got rid of the age 0 and also got rid of the black gender ('-'). 
 I also worked with the Date Columns (total 28 columns) table. 
 Then, I converted the Date OCC to datetime. 
+
+
 ![image_480](https://github.com/ktennant5378/Group-project-3/assets/153492014/4524cd49-b773-46fe-a71f-90f0a9d5f1fb)
 
 
