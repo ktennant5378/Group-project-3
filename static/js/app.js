@@ -4,7 +4,7 @@ let allData;
 // Create initial map object using Los Angeles coordinates
 let myMap = L.map("map", {
     center: [34.05, -118.24],
-    zoom: 10
+    zoom: 11
 });
 
 // Add tiles into LA_Map object
@@ -15,9 +15,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 // Read CSV file  
-d3.csv("Data/LA_Crime_Data.csv").then(function(data) {
+d3.csv("Data/area_crime.csv").then(function(data) {
     allData = data;
     console.log("allData", allData);
+    GetMarkers(data)
 });
-
-Get_LA_Boundary_Data();

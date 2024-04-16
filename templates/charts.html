@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphs and Data Visualization</title>
+</head>
+<body>
+    <h1>Data Visualizations</h1>
+    <div id="graphs">
+        <!-- Image tags for the static graphs -->
+        <img src="{{ url_for('static', filename='Images/crime_count_by_month.png') }}" alt="Graph 1 Description">
+        <img src="{{ url_for('static', filename='Images/daily_crime_count_oct_2023.png') }}" alt="Graph 2 Description">
+        <img src="{{ url_for('static', filename='Images/top_10_crimes_pie.png') }}" alt="Graph 3 Description">
+        <img src="{{ url_for('static', filename='Images/top_10_crimes.png') }}" alt="Graph 3 Description">
+    </div>
+    
+    <!-- Here you could also add the div where your interactive map will go, if it's a separate part of the page -->
+    <div id="map"></div>
+
+    <!-- Linking to the JavaScript for the interactive map -->
+    <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+    <!-- Optionally, include any other scripts your page might need, like Leaflet, jQuery, etc. -->
+</body>
+</html>
