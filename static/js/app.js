@@ -15,7 +15,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 // Read CSV file  
-d3.csv("Data/area_crime.csv").then(function(data) {
+d3.csv("static/Data/area_crime.csv").then(function(data) {
     allData = data;
     console.log("allData", allData);
     GetMarkers(data)
