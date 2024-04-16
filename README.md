@@ -15,36 +15,9 @@ Then I did some cleaning of the data, got ride of the Nan values, dropped the du
 I got rid of the age 0 and also got rid of the black gender ('-'). 
 I also worked with the Date Columns (total 28 columns) table. 
 Then, I converted the Date OCC to datetime. 
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 925720 entries, 0 to 925719
-Data columns (total 28 columns):
- #   Column          Non-Null Count   Dtype
----  ------          --------------   -----
- 0   DR_NO           925720 non-null  int64
- 1   Date Rptd       925720 non-null  object
- 2   DATE OCC        925720 non-null  object
- 3   TIME OCC        925720 non-null  int64
- 4   AREA            925720 non-null  int64
- 5   AREA NAME       925720 non-null  object
- 6   Rpt Dist No     925720 non-null  int64
- 7   Part 1-2        925720 non-null  int64
- 8   Crm Cd          925720 non-null  int64
- 9   Crm Cd Desc     925720 non-null  object
- 10  Mocodes         796258 non-null  object
- 11  Vict Age        925720 non-null  int64
- 12  Vict Sex        802562 non-null  object
- 13  Vict Descent    802552 non-null  object
- 14  Premis Cd       925709 non-null  float64
- 15  Premis Desc     925161 non-null  object
- 16  Weapon Used Cd  319701 non-null  float64
- 17  Weapon Desc     319701 non-null  object
- 18  Status          925720 non-null  object
- 19  Status Desc     925720 non-null  object
-...
- 26  LAT             925720 non-null  float64
- 27  LON             925720 non-null  float64
-dtypes: float64(8), int64(7), object(13)
-memory usage: 197.8+ MB
+![image_480](https://github.com/ktennant5378/Group-project-3/assets/153492014/4524cd49-b773-46fe-a71f-90f0a9d5f1fb)
+
+
 
 Crime report over the years. Bonus October Analysis.
 I access the dt accessor on the Series, not the DataFrame and I got the Date Occurrence table as a result.
