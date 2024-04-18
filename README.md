@@ -36,3 +36,39 @@ I created a Dataframe that excludes the top 10 crimes, we are focusing on the Cr
 
 Machine Learning (ML) - a branch of artificial intelligence (AI) that involves building algorithms and statistical models, computers are able to learn from data and do the tasks without instructions. 
 ![image](https://github.com/ktennant5378/Group-project-3/assets/153463563/1532e9d2-5051-4d86-bc97-4b3e8b272be4)
+Information from sheriff’s Department of LA county
+https://lasd.org/transparency/part1and2crimedata/#part2
+Machine learning to predict Part I and Part II crimes in Los Angeles involves using
+statistical models and algorithms to analyze historical crime data and identify patterns or
+trends that might indicate future occurrences. Here&#39;s a brief overview of each part and
+how machine learning is applied:
+1. Part I Crimes: These are major offenses and include violent crimes like murder,
+rape, and robbery, as well as property crimes such as burglary, theft, and arson.
+Machine learning models can predict hot spots and potential increases in these
+crimes by analyzing factors like time of day, economic conditions, neighborhood
+characteristics, and historical crime rates.
+2. Part II Crimes: These consist of lesser offenses like vandalism, simple assault,
+drug offenses, and other non-traffic offenses. While these crimes might be less
+severe, predicting them helps in allocating resources efficiently and preventing
+escalations.
+
+When using machine learning to predict Part I and Part II crimes in Los Angeles, various classifiers
+are employed to evaluate the findings. These classifiers analyze historical data to identify patterns
+that may help forecast future criminal activities. Here’s how these models are used:
+1. Logistic Regression (LR) Model: This model, referred to as lr_model, is used for binary
+classification tasks. In the context of crime prediction, it can determine the likelihood of a
+crime occurring under given conditions. It’s particularly useful for predicting the probability of
+an area experiencing a specific type of crime based on factors such as demographic data
+and past crime rates.
+2. Random Forest Classifier (RFC): Known as rfc_model, this model uses an ensemble of
+decision trees to improve predictive accuracy and control over-fitting. It is effective for
+handling large datasets with numerous variables, making it suitable for analyzing complex
+crime data where many factors may influence crime rates.
+3. Decision Tree Classifier (DTC): The dtc_model is another approach that uses a tree-like
+model of decisions and their possible consequences. It is straightforward and easy to
+interpret, making it valuable for identifying key predictors of crime, such as time and location.
+4. Support Vector Classifier(SVC) referred to as svc_model, is another powerful machine
+learning tool used to predict Part I and Part II crimes in Los Angeles.
+These classifiers help in identifying and quantifying the likelihood of future crimes. By applying these
+models, law enforcement can better understand crime dynamics and allocate resources more
+effectively, enhancing preventive measures and potentially reducing crime incidence.
